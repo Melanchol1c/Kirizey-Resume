@@ -1,7 +1,7 @@
 .header {
     height: 100vh;
     width: 100vw;
-    background: url(../../assets/bg.jpg) no-repeat;
+    background: url(../../assets/header_bg.jpg) no-repeat;
     background-size: cover;
     background-position-y: center;
 
@@ -13,7 +13,7 @@
 
     &__content {
         position: relative;
-        top: 50%;
+        top: 40%;
         -webkit-transform: translateY(-50%);
         transform: translateY(-50%);
         -webkit-transform: translateZ(0);
@@ -29,6 +29,7 @@
             margin: 0 15px;
             -webkit-transition: all .3s;
             transition: all .3s;
+            text-decoration: none;
 
             &:hover {
                 text-decoration: none;
@@ -44,7 +45,6 @@
         left: 0;
         margin: auto;
         bottom: 5%;
-        z-index: 11;
         width: 38px;
         height: 63px;
         border-radius: 25px;
@@ -174,4 +174,28 @@ i.name {
 
 .cd-headline.clip b.is-visible {
     opacity: 1;
+}
+
+@media (max-width:800px) {
+    .cd-words-wrapper b {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:600px) {
+    .cd-words-wrapper b {
+        font-size: 35px;
+    }
+}
+
+@media (max-width:500px) {
+    .cd-words-wrapper b {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:395px) {
+    .cd-words-wrapper b {
+        font-size: 18px;
+    }
 }

@@ -1,0 +1,200 @@
+@mixin icon-size {
+    width: 16px !important;
+    background-size: cover;
+    height: 16px !important;
+}
+
+.about {
+    height: 100vh;
+    width: 100vw;
+    background: #fff;
+
+    &__title {
+        text-align: center;
+        padding: 30px 0;
+
+        ::before {
+            content: "";
+            position: absolute;
+            right: 0;
+            left: 0;
+            margin: auto;
+            width: 8%;
+            background: #2daee0;
+            height: 2px;
+            bottom: -8px;
+        }
+
+    }
+
+    &__img img {
+        width: 100%;
+        z-index: 2;
+    }
+
+    &__img {
+        transition: 0.3s;
+        position: relative;
+        max-height: 400px;
+    }
+
+    &__img:hover {
+        transform: scale(1.02);
+    }
+
+    .border {
+        position: absolute;
+        top: 25px !important;
+        bottom: -25px !important;
+        left: 25px !important;
+        right: -8px !important;
+        border: 10px solid #041230 !important;
+    }
+
+    &__info-wrapper {
+        margin-left: 70px;
+    }
+
+    ul {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        list-style: none;
+
+        i {
+            margin-right: 5px;
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+
+    .subtitle,
+    strong {
+        color: #2daee0;
+    }
+
+    i.bash-logo {
+        background-image: url(../../assets/bash-logo.png);
+        @include icon-size();
+    }
+
+    i.jquery-logo {
+        background-image: url(../../assets/jquery-logo.png);
+        @include icon-size();
+    }
+
+    i.django-logo {
+        background-image: url(../../assets/django.png);
+        @include icon-size();
+    }
+
+    i.bootstrap-logo {
+        background-image: url(../../assets/bootstrap.png);
+        @include icon-size();
+    }
+
+    i.materialize-logo {
+        background-image: url(../../assets/materialize.png);
+        @include icon-size();
+    }
+
+    i.axios-logo {
+        background-image: url(../../assets/axios-logo.png);
+        @include icon-size();
+    }
+
+
+
+
+}
+
+@media (max-width:1199px) {
+    .about {
+        .border {
+            bottom: 58px !important;
+        }
+
+        &__info-wrapper {
+            margin-left: 20px;
+        }
+    }
+}
+
+@media (max-width:991px) {
+    .about {
+        .border {
+            bottom: -24px !important;
+        }
+
+        &__img {
+            margin-bottom: 40px;
+        }
+
+        &__info-wrapper {
+            margin-left: 0;
+        }
+
+    }
+}
+
+
+@media (max-width:575px) {
+    .about {
+        .border {
+            display: none;
+        }
+
+        &__img {
+            margin-bottom: 194px;
+        }
+    }
+}
+
+@media (max-width:510px) {
+    .about {
+        &__img {
+            margin-bottom: 132px;
+        }
+
+    }
+}
+
+
+@media (max-width:558px) {
+    .about {
+        ul {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 15px;
+        }
+    }
+}
+
+@media (max-width:460px) {
+    .about {
+        &__img {
+            margin-bottom: 76px;
+        }
+
+        ul {
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 30px;
+            padding-left: 40px;
+        }
+    }
+}
+
+@media (max-width:405px) {
+    .about {
+        &__img {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            padding-left: 15px;
+        }
+    }
+}

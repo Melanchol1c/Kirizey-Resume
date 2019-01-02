@@ -12,7 +12,9 @@ export default class Header extends Component {
               <b className="is-visible">
                 HELLO I'M <i className="name"> KIRILL VALIRSKIY</i>
               </b>
-              <b className="is-hidden">I'M WEB DEVELOPER</b>
+              <b className="is-hidden">
+                I'M <i className="name"> FRONTEND DEVELOPER</i>
+              </b>
             </span>
           </h2>
         </section>

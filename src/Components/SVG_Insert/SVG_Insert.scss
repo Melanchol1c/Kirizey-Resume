@@ -1,0 +1,18 @@
+.svg_insert {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    z-index: 21111;
+    bottom: -24px;
+
+    svg {
+        color: #fff;
+        fill: currentcolor;
+    }
+}
+
+@media (max-width:800px) {
+    .svg_insert {
+        bottom: -1px;
+    }
+}
