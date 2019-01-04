@@ -122,7 +122,10 @@ export default class Portfolio extends Component {
                   {project.name}
                   <div className="mr-2">
                     {project.tools.map(t => (
-                      <span className="badge badge-info ml-1" key={t}>
+                      <span
+                        className="badge badge-pill badge-info ml-1"
+                        key={t}
+                      >
                         {t}
                       </span>
                     ))}
