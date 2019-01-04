@@ -132,10 +132,7 @@ export default class Portfolio extends Component {
                   </div>
                 </h5>
                 <p className="card-text">{project.description}</p>
-                <a
-                  href={project.prodUrl}
-                  className="btn btn-outline-primary mr-1"
-                >
+                <a href={project.prodUrl} className="btn btn-outline-info mr-1">
                   Live demo
                 </a>
                 <a href={project.gitRepo} className="btn btn-outline-dark">
