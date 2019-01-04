@@ -19,4 +19,18 @@ code {
   font-weight: 700;
   color: #041230;
   font-size: 35px;
+  text-align: center;
+  padding: 30px 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 8%;
+    background: #2daee0;
+    height: 2px;
+    bottom: 24px;
+  }
 }
