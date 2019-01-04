@@ -4,10 +4,10 @@
     height: 16px !important;
 }
 
-@keyframes section {
+@keyframes about-section {
     0% {
         opacity: 0;
-        transform: translateX(-100%);
+        transform: translateX(100%);
     }
 
     100% {
@@ -22,7 +22,7 @@
     min-height: 100vh;
     width: 100vw;
     background: #fff;
-    animation: section 1s;
+    animation: about-section 1s;
 
     &__img img {
         width: 100%;
@@ -101,6 +101,11 @@
 
     i.axios-logo {
         background-image: url(../../assets/axios-logo.png);
+        @include icon-size();
+    }
+
+    i.cv2-logo {
+        background: url(../../assets/open-cv-logo.svg);
         @include icon-size();
     }
 }

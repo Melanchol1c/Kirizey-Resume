@@ -32,8 +32,8 @@ export default class Portfolio extends Component {
           "Bootstrap",
           "JQuery"
         ],
-        gitRepo: "https://github.com/Melanchol1c/kirizey-bulto",
-        prodUrl: "https://kirizey-bulto.firebaseapp.com/",
+        gitRepo: "",
+        prodUrl: "http://194.177.23.60",
         img: OxbridgeImg
       },
       {
@@ -135,9 +135,18 @@ export default class Portfolio extends Component {
                 <a href={project.prodUrl} className="btn btn-outline-info mr-1">
                   Live demo
                 </a>
-                <a href={project.gitRepo} className="btn btn-outline-dark">
-                  Git repo
-                </a>
+                {project.gitRepo ? (
+                  <a href={project.gitRepo} className="btn btn-outline-dark">
+                    Git repo
+                  </a>
+                ) : (
+                  <a
+                    href={project.gitRepo}
+                    className="btn btn-outline-dark disabled"
+                  >
+                    Git repo
+                  </a>
+                )}
               </div>
             </div>
           </div>

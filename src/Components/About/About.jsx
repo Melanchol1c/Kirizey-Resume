@@ -111,6 +111,10 @@ const InsrtumentList = () => (
         <i className="fab fa-gulp" />
         Gulp
       </li>
+      <li>
+        <i className="fab cv2-logo" />
+        opencv-python
+      </li>
     </ul>
     <h5 className="subtitle">Another:</h5>
     <ul>
