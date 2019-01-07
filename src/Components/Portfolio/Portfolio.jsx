@@ -90,12 +90,7 @@ export default class Portfolio extends Component {
                     Git repo
                   </a>
                 ) : (
-                  <a
-                    href={project.gitRepo}
-                    className="btn btn-outline-dark disabled"
-                  >
-                    Git repo
-                  </a>
+                  <React.Fragment />
                 )}
               </div>
             </div>
