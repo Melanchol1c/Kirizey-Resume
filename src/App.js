@@ -25,7 +25,7 @@ class App extends Component {
         id: 4,
         name: "Oxbridge",
         description:
-          'Web dashboard for teachers of the school of English "Oxbridge". Storing data about students, their parents, the schedule and module of the audition, on the basis of which the group is determined by the new student. Test data: admin:admin.',
+          'Web dashboard for teachers of the school of English "Oxbridge". Storing data about students, their parents, the schedule and module of the audition, on the basis of which the group is determined by the new student. Test data: admin : admin.',
         tools: [
           "Django",
           "Django-rest-framework",
@@ -37,7 +37,7 @@ class App extends Component {
         prodUrl: "https://oxbridge-demp.herokuapp.com/",
         img: OxbridgeImg,
         subnote:
-          "In this heroku deployed demo not allows some kind of requests :c"
+          "In this heroku deployed demo not allows some kind of requests :c . To try it you need go to /admin, sign in, create a teacher and connect him to admin user."
       },
       {
         id: 2,
