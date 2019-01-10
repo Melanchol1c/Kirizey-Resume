@@ -51,6 +51,11 @@
   position: relative;
   animation: section 1s;
 
+  .subtext {
+    color: #DC3545;
+    opacity: .8;
+  }
+
   &__projects-controls {
     display: flex;
     flex-flow: wrap;
@@ -88,6 +93,8 @@
     .card-img-top {
       height: 100%;
     }
+
+
 
     .card-back {
       position: absolute;

@@ -18,7 +18,8 @@ class App extends Component {
         tools: ["Angular", "Bootstrap", "Firebase"],
         gitRepo: "https://github.com/Melanchol1c/Kirizey-Play",
         prodUrl: "https://kirizey-shop.firebaseapp.com/",
-        img: KirizeyPlayImg
+        img: KirizeyPlayImg,
+        subnote: ""
       },
       {
         id: 4,
@@ -34,7 +35,9 @@ class App extends Component {
         ],
         gitRepo: "",
         prodUrl: "https://oxbridge-demp.herokuapp.com/",
-        img: OxbridgeImg
+        img: OxbridgeImg,
+        subnote:
+          "In this heroku deployed demo not allows some kind of requests :c"
       },
       {
         id: 2,
@@ -50,7 +53,9 @@ class App extends Component {
         ],
         gitRepo: "https://github.com/Melanchol1c/Kirizey-Blog",
         prodUrl: "https://kirizey-blog.herokuapp.com",
-        img: KirizeyBlogImg
+        img: KirizeyBlogImg,
+        subnote:
+          "In this heroku deployed demo not allows some kind of requests :c"
       },
       {
         id: 3,
@@ -60,7 +65,8 @@ class App extends Component {
         tools: ["React", "Materialize", "Saas"],
         gitRepo: "https://github.com/Melanchol1c/kirizey-bulto",
         prodUrl: "https://kirizey-bulto.firebaseapp.com/",
-        img: KirizeyBultoImg
+        img: KirizeyBultoImg,
+        subnote: ""
       }
     ]
   };
