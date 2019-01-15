@@ -35,10 +35,7 @@ const Socials = () => (
   <div className="header__socials">
     <a href="https://vk.com/kirizey_melanchol1c" className="fab fa-vk" />
     <a href="https://github.com/Melanchol1c" className="fab fa-github" />
-    <a
-      href="https://web.telegram.org/#/im?p=@Icarus_d1ve"
-      className="fab fa-telegram"
-    />
+    <a href="https://t.me/kirizey_melanchol1c" className="fab fa-telegram" />
   </div>
 );
 
