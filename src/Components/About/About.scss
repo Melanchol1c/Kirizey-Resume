@@ -42,7 +42,7 @@
     .border {
         position: absolute;
         top: 25px !important;
-        bottom: -25px !important;
+        bottom: 32px !important;
         left: 25px !important;
         right: -8px !important;
         border: 10px solid #041230 !important;
@@ -113,7 +113,7 @@
 @media (max-width:1199px) {
     .about {
         .border {
-            bottom: 58px !important;
+            bottom: 94px !important;
         }
 
         &__info-wrapper {
@@ -147,7 +147,7 @@
         }
 
         &__img {
-            margin-bottom: 194px;
+            margin-bottom: 134px;
         }
     }
 }
@@ -155,9 +155,8 @@
 @media (max-width:510px) {
     .about {
         &__img {
-            margin-bottom: 132px;
+            margin-bottom: 66px;
         }
-
     }
 }
 
@@ -174,7 +173,7 @@
 @media (max-width:460px) {
     .about {
         &__img {
-            margin-bottom: 76px;
+            margin-bottom: 20px;
         }
 
         ul {

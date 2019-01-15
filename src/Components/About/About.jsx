@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.scss";
-import Photo from "../../assets/1.jpg";
+import Photo from "../../assets/cat.jpg";
 import LazyLoad from "react-lazyload";
 
 const About = () => (
