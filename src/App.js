@@ -7,6 +7,7 @@ import KirizeyPlayImg from "../src/assets/kirizey-play-img.png";
 import KirizeyBultoImg from "../src/assets/kirizey-bulto-img.png";
 import KirizeyBlogImg from "../src/assets/kirizey-blog-img.png";
 import OxbridgeImg from "../src/assets/oxbridge-img.png";
+import KirizeyMathImg from "../src/assets/kirizey-math-img.png";
 
 class App extends Component {
   state = {
@@ -69,6 +70,19 @@ class App extends Component {
         gitRepo: "https://github.com/Melanchol1c/kirizey-bulto",
         prodUrl: "https://kirizey-bulto.firebaseapp.com/",
         img: KirizeyBultoImg,
+        subnote: "",
+        sliderImages: []
+      },
+      {
+        id: 5,
+        name: "Kirizey Math",
+        description:
+          "Statistic processing based on random generated numbers: median, sample mean, variance, standard deviation and confirmation of the hypothesis of homogeneity of two samples using the Mann – Whitney U test.",
+        tools: ["React", "Saas"],
+        gitRepo:
+          "https://github.com/Melanchol1c/react-statistic-math-processing",
+        prodUrl: "https://kirizey-math.firebaseapp.com/",
+        img: KirizeyMathImg,
         subnote: "",
         sliderImages: []
       }
