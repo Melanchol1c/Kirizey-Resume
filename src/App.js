@@ -8,6 +8,7 @@ import KirizeyBultoImg from "../src/assets/kirizey-bulto-img.png";
 import KirizeyBlogImg from "../src/assets/kirizey-blog-img.png";
 import OxbridgeImg from "../src/assets/oxbridge-img.png";
 import KirizeyMathImg from "../src/assets/kirizey-math-img.png";
+import ResumeImg from "../src/assets/resume-img.png";
 
 class App extends Component {
   state = {
@@ -83,6 +84,17 @@ class App extends Component {
           "https://github.com/Melanchol1c/react-statistic-math-processing",
         prodUrl: "https://kirizey-math.firebaseapp.com/",
         img: KirizeyMathImg,
+        subnote: "",
+        sliderImages: []
+      },
+      {
+        id: 6,
+        name: "Kirizey Resume",
+        description: "Сurrent page, a small summary of my development path.",
+        tools: ["React", "Saas"],
+        gitRepo: "https://github.com/Melanchol1c/Kirizey-Resume",
+        prodUrl: "https://kirizey-resume.firebaseapp.com/",
+        img: ResumeImg,
         subnote: "",
         sliderImages: []
       }
