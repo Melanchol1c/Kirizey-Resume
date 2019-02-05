@@ -53,7 +53,7 @@ class App extends Component {
           "Django",
           "Django-rest-framework",
           "Ant Design",
-          "Saas"
+          "Sass"
         ],
         gitRepo: "https://github.com/Melanchol1c/Kirizey-Blog",
         prodUrl: "https://kirizey-blog.herokuapp.com",
@@ -67,7 +67,7 @@ class App extends Component {
         name: "Kirizey Bulto",
         description:
           "Simple To Do and budget manager. Project for training React framework.",
-        tools: ["React", "Materialize", "Saas"],
+        tools: ["React", "Materialize", "Sass"],
         gitRepo: "https://github.com/Melanchol1c/kirizey-bulto",
         prodUrl: "https://kirizey-bulto.firebaseapp.com/",
         img: KirizeyBultoImg,
@@ -79,7 +79,7 @@ class App extends Component {
         name: "Kirizey Math",
         description:
           "Statistic processing based on random generated numbers: median, sample mean, variance, standard deviation and confirmation of the hypothesis of homogeneity of two samples using the Mann – Whitney U test.",
-        tools: ["React", "Saas"],
+        tools: ["React", "Sass"],
         gitRepo:
           "https://github.com/Melanchol1c/react-statistic-math-processing",
         prodUrl: "https://kirizey-math.firebaseapp.com/",
@@ -91,7 +91,7 @@ class App extends Component {
         id: 6,
         name: "Kirizey Resume",
         description: "Сurrent page, a small summary of my development path.",
-        tools: ["React", "Saas"],
+        tools: ["React", "Sass"],
         gitRepo: "https://github.com/Melanchol1c/Kirizey-Resume",
         prodUrl: "https://kirizey-resume.firebaseapp.com/",
         img: ResumeImg,
